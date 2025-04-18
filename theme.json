@@ -171,7 +171,8 @@
 		},
 		"typography": {
 			"fontFamily": "var:preset|font-family|montserrat",
-			"fontSize": "var:preset|font-size|medium"
+			"fontSize": "var:preset|font-size|medium",
+			"lineHeight": "1.5"
 		},
 		"blocks": {
 			"core/button": {
@@ -280,6 +281,11 @@
 				"typography": {
 					"fontSize": "var:preset|font-size|small",
 					"fontWeight": "500"
+				}
+			},
+			"heading": {
+				"typography": {
+					"lineHeight": "1.25"
 				}
 			}
 		}
