@@ -215,6 +215,20 @@
 					}
 				}
 			},
+			"core/navigation": {
+				"elements": {
+					"link": {
+						":hover": {
+							"typography": {
+								"textDecoration": "underline"
+							}
+						},
+						"typography": {
+							"textDecoration": "none"
+						}
+					}
+				}
+			},
 			"core/site-title": {
 				"typography": {
 					"fontWeight": "700"
