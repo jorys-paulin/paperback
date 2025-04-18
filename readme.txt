@@ -43,10 +43,10 @@ Description de l’extension
 
 == Fonts ==
 
-Nom de la police
-Copyright
-Licence
-Source
+Montserrat
+Copyright 2024 The Montserrat.Git Project Authors (https://github.com/JulietaUla/Montserrat.git)
+Licence: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
+Source: https://github.com/JulietaUla/Montserrat
 
 
 == Images ==
