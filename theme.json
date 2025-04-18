@@ -1,6 +1,48 @@
 {
 	"settings": {
 		"appearanceTools": true,
+		"color": {
+			"defaultDuotone": false,
+			"defaultGradients": false,
+			"defaultPalette": false,
+			"palette": [
+				{
+					"color": "#FAFAFA",
+					"name": "Base",
+					"slug": "base"
+				},
+				{
+					"color": "#212121",
+					"name": "Contrast",
+					"slug": "contrast"
+				},
+				{
+					"color": "#F5F5F5",
+					"name": "Accent 1",
+					"slug": "accent-1"
+				},
+				{
+					"color": "#424242",
+					"name": "Accent 2",
+					"slug": "accent-2"
+				},
+				{
+					"color": "#EEEEEE",
+					"name": "Accent 3",
+					"slug": "accent-3"
+				},
+				{
+					"color": "#616161",
+					"name": "Accent 4",
+					"slug": "accent-4"
+				},
+				{
+					"color": "#9E9E9E",
+					"name": "Accent 5",
+					"slug": "accent-5"
+				}
+			]
+		},
 		"layout": {
 			"contentSize": "720px",
 			"wideSize": "1200px"
@@ -116,6 +158,10 @@
 		"useRootPaddingAwareAlignments": true
 	},
 	"styles": {
+		"color": {
+			"background": "var:preset|color|base",
+			"text": "var:preset|color|contrast"
+		},
 		"spacing": {
 			"blockGap": "var:preset|spacing|50",
 			"padding": {
