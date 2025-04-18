@@ -2,10 +2,48 @@
 	"settings": {
 		"appearanceTools": true,
 		"layout": {
-			"contentSize": "620px",
-			"wideSize": "1000px"
+			"contentSize": "720px",
+			"wideSize": "1200px"
 		},
 		"spacing": {
+			"defaultSpacingSizes": false,
+			"spacingSizes": [
+				{
+					"name": "Tiny",
+					"size": ".25rem",
+					"slug": "20"
+				},
+				{
+					"name": "X-Small",
+					"size": ".5rem",
+					"slug": "30"
+				},
+				{
+					"name": "Small",
+					"size": ".75rem",
+					"slug": "40"
+				},
+				{
+					"name": "Regular",
+					"size": "1rem",
+					"slug": "50"
+				},
+				{
+					"name": "Large",
+					"size": "1.5rem",
+					"slug": "60"
+				},
+				{
+					"name": "X-Large",
+					"size": "1.75rem",
+					"slug": "70"
+				},
+				{
+					"name": "XX-Large",
+					"size": "2rem",
+					"slug": "80"
+				}
+			],
 			"units": [
 				"%",
 				"px",
@@ -78,6 +116,13 @@
 		"useRootPaddingAwareAlignments": true
 	},
 	"styles": {
+		"spacing": {
+			"blockGap": "var:preset|spacing|50",
+			"padding": {
+				"left": "var:preset|spacing|50",
+				"right": "var:preset|spacing|50"
+			}
+		},
 		"typography": {
 			"fontFamily": "var:preset|font-family|montserrat",
 			"fontSize": "var:preset|font-size|medium"
