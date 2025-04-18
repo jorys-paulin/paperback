@@ -18,5 +18,6 @@
   <!-- wp:paragraph -->
   <p><?php echo esc_html_x( 'The page you are looking for doesn\'t exist, or it has been moved. Please try searching using the form below.', '404 error message', 'paperback' ); ?></p>
   <!-- /wp:paragraph -->
+  <!-- wp:pattern {"slug":"paperback/hidden-search"} /-->
 </div>
 <!-- /wp:group -->
