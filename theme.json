@@ -82,6 +82,25 @@
 			"fontFamily": "var:preset|font-family|montserrat",
 			"fontSize": "var:preset|font-size|medium"
 		},
+		"blocks": {
+			"core/site-title": {
+				"typography": {
+					"fontWeight": "700"
+				},
+				"elements": {
+					"link": {
+						"typography": {
+							"textDecoration": "none"
+						},
+						":hover": {
+							"typography": {
+								"textDecoration": "underline"
+							}
+						}
+					}
+				}
+			}
+		},
 		"elements": {
 			"caption": {
 				"typography": {
@@ -124,11 +143,13 @@
 	"templateParts": [
 		{
 			"area": "header",
-			"name": "header"
+			"name": "header",
+			"title": "Header"
 		},
 		{
 			"area": "footer",
-			"name": "footer"
+			"name": "footer",
+			"title": "Footer"
 		}
 	],
 	"version": 3,
