@@ -16,6 +16,34 @@
 			]
 		},
 		"typography": {
+			"defaultFontSizes": false,
+			"fontSizes": [
+				{
+					"name": "Small",
+					"size": "0.875rem",
+					"slug": "small"
+				},
+				{
+					"name": "Medium",
+					"size": "1rem",
+					"slug": "medium"
+				},
+				{
+					"name": "Large",
+					"size": "1.5rem",
+					"slug": "large"
+				},
+				{
+					"name": "Extra Large",
+					"size": "1.75rem",
+					"slug": "x-large"
+				},
+				{
+					"name": "Extra Extra Large",
+					"size": "2.25rem",
+					"slug": "xx-large"
+				}
+			],
 			"fontFamilies": [
 				{
 					"fontFace": [
@@ -51,7 +79,46 @@
 	},
 	"styles": {
 		"typography": {
-			"fontFamily": "var:preset|font-family|montserrat"
+			"fontFamily": "var:preset|font-family|montserrat",
+			"fontSize": "var:preset|font-size|medium"
+		},
+		"elements": {
+			"caption": {
+				"typography": {
+					"fontSize": "var:preset|font-size|small"
+				}
+			},
+			"h1": {
+				"typography": {
+					"fontSize": "var:preset|font-size|xx-large"
+				}
+			},
+			"h2": {
+				"typography": {
+					"fontSize": "var:preset|font-size|x-large"
+				}
+			},
+			"h3": {
+				"typography": {
+					"fontSize": "var:preset|font-size|large"
+				}
+			},
+			"h4": {
+				"typography": {
+					"fontSize": "var:preset|font-size|medium"
+				}
+			},
+			"h5": {
+				"typography": {
+					"fontSize": "var:preset|font-size|small"
+				}
+			},
+			"h6": {
+				"typography": {
+					"fontSize": "var:preset|font-size|small",
+					"fontWeight": "500"
+				}
+			}
 		}
 	},
 	"templateParts": [
