@@ -1,4 +1,6 @@
 {
+	"$schema": "https://schemas.wp.org/wp/6.8/theme.json",
+	"version": 3,
 	"settings": {
 		"appearanceTools": true,
 		"color": {
@@ -223,14 +225,6 @@
 					"background": "var:preset|color|contrast",
 					"text": "var:preset|color|base"
 				},
-				"spacing": {
-					"padding": {
-						"bottom": "var:preset|spacing|30",
-						"left": "var:preset|spacing|50",
-						"right": "var:preset|spacing|50",
-						"top": "var:preset|spacing|30"
-					}
-				},
 				":focus": {
 					"outline": {
 						"color": "var:preset|color|accent-2",
@@ -244,6 +238,14 @@
 					},
 					"border": {
 						"color": "transparent"
+					}
+				},
+				"spacing": {
+					"padding": {
+						"bottom": "var:preset|spacing|30",
+						"left": "var:preset|spacing|50",
+						"right": "var:preset|spacing|50",
+						"top": "var:preset|spacing|30"
 					}
 				}
 			},
@@ -301,7 +303,5 @@
 			"name": "footer",
 			"title": "Footer"
 		}
-	],
-	"version": 3,
-	"$schema": "https://schemas.wp.org/wp/6.8/theme.json"
+	]
 }
