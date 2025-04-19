@@ -99,33 +99,6 @@
 		},
 		"typography": {
 			"defaultFontSizes": false,
-			"fontSizes": [
-				{
-					"name": "Small",
-					"size": "0.875rem",
-					"slug": "small"
-				},
-				{
-					"name": "Medium",
-					"size": "1rem",
-					"slug": "medium"
-				},
-				{
-					"name": "Large",
-					"size": "1.5rem",
-					"slug": "large"
-				},
-				{
-					"name": "Extra Large",
-					"size": "1.75rem",
-					"slug": "x-large"
-				},
-				{
-					"name": "Extra Extra Large",
-					"size": "2.25rem",
-					"slug": "xx-large"
-				}
-			],
 			"fontFamilies": [
 				{
 					"fontFace": [
@@ -154,6 +127,33 @@
 					"fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
 					"name": "System Font",
 					"slug": "system-font"
+				}
+			],
+			"fontSizes": [
+				{
+					"name": "Small",
+					"size": "0.875rem",
+					"slug": "small"
+				},
+				{
+					"name": "Medium",
+					"size": "1rem",
+					"slug": "medium"
+				},
+				{
+					"name": "Large",
+					"size": "1.5rem",
+					"slug": "large"
+				},
+				{
+					"name": "Extra Large",
+					"size": "1.75rem",
+					"slug": "x-large"
+				},
+				{
+					"name": "Extra Extra Large",
+					"size": "2.25rem",
+					"slug": "xx-large"
 				}
 			]
 		},
