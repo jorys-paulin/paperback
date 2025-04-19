@@ -215,6 +215,64 @@
 					}
 				}
 			},
+			"core/pullquote": {
+				"elements": {
+					"cite": {
+						"typography": {
+							"fontSize": "var:preset|font-size|medium",
+							"fontStyle": "normal"
+						}
+					}
+				},
+				"spacing": {
+					"padding": {
+						"bottom": "var:preset|spacing|60",
+						"top": "var:preset|spacing|60"
+					}
+				},
+				"typography": {
+					"fontSize": "var:preset|font-size|large"
+				}
+			},
+			"core/quote": {
+				"color": {
+					"background": "var:preset|color|accent-1"
+				},
+				"elements": {
+					"cite": {
+						"color": {
+							"text": "var:preset|color|accent-2"
+						},
+						"typography": {
+							"fontSize": "var:preset|font-size|small",
+							"fontStyle": "normal"
+						}
+					}
+				},
+				"spacing": {
+					"padding": {
+						"bottom": "var:preset|spacing|50",
+						"left": "var:preset|spacing|50",
+						"right": "var:preset|spacing|50",
+						"top": "var:preset|spacing|50"
+					}
+				},
+				"variations": {
+					"plain": {
+						"color": {
+							"background": "transparent"
+						},
+						"spacing": {
+							"padding": {
+								"bottom": "0",
+								"left": "0",
+								"right": "0",
+								"top": "0"
+							}
+						}
+					}
+				}
+			},
 			"core/navigation": {
 				"elements": {
 					"link": {
