@@ -410,6 +410,11 @@
 			"name": "page-no-title",
 			"postTypes": ["page"],
 			"title": "Page No Title"
+		},
+		{
+			"name": "page-banner",
+			"postTypes": ["page"],
+			"title": "Page With Banner"
 		}
 	]
 }
