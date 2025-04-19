@@ -10,7 +10,7 @@
 
 ?>
 
-<!-- wp:group {"layout":{"type":"default"}} -->
+<!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group">
   <!-- wp:heading {"level":1} -->
   <h1 class="wp-block-heading"><?php echo esc_html_x( 'Page not found', '404 error message', 'paperback' ); ?></h1>
