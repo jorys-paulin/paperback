@@ -10,8 +10,8 @@
 
 ?>
 
-<!-- wp:group {"layout":{"type":"constrained"}} -->
-<div class="wp-block-group">
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)">
   <!-- wp:heading {"level":1} -->
   <h1 class="wp-block-heading"><?php echo esc_html_x( 'Page not found', '404 error message', 'paperback' ); ?></h1>
   <!-- /wp:heading -->
