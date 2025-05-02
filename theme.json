@@ -304,6 +304,16 @@
 					}
 				}
 			},
+			"core/search": {
+				"css": "& .wp-block-search__input{border-radius:.25rem;}",
+				"elements": {
+					"button": {
+						"border": {
+							"radius": ".25rem"
+						}
+					}
+				}
+			},
 			"core/separator": {
 				"border": {
 					"color": "currentColor",
