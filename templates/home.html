@@ -1,9 +1,20 @@
 <!-- wp:template-part {"slug":"header","tagName":"header"} /-->
 
-<!-- wp:group {"tagName":"main","layout":{"type":"constrained"}} -->
-<main class="wp-block-group">
-	<!-- wp:pattern {"slug":"paperback/hidden-blog-heading"} /-->
-	<!-- wp:pattern {"slug":"paperback/template-query-loop"} /-->
+<!-- wp:group {"tagName":"main","style":{"spacing":{"margin":{"top":"0"}}},"layout":{"type":"constrained"}} -->
+<main class="wp-block-group" style="margin-top:0">
+  <!-- wp:cover {"overlayColor":"accent-1","isUserOverlayColor":true,"minHeight":300,"isDark":false,"align":"full"} -->
+  <div class="wp-block-cover alignfull is-light" style="min-height: 300px">
+    <span aria-hidden="true" class="wp-block-cover__background has-accent-1-background-color has-background-dim-100 has-background-dim"></span>
+    <div class="wp-block-cover__inner-container">
+      <!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
+      <div class="wp-block-group alignwide">
+        <!-- wp:pattern {"slug":"paperback/hidden-blog-heading"} /-->
+      </div>
+      <!-- /wp:group -->
+    </div>
+  </div>
+  <!-- /wp:cover -->
+  <!-- wp:pattern {"slug":"paperback/template-query-loop"} /-->
 </main>
 <!-- /wp:group -->
 
