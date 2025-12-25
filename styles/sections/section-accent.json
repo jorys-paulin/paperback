@@ -1,8 +1,8 @@
 {
 	"$schema": "https://schemas.wp.org/wp/6.8/theme.json",
 	"version": 3,
-	"slug": "section-accent-1",
-	"title": "Accent 1",
+	"slug": "section-accent",
+	"title": "Accent",
 	"blockTypes": [
 		"core/group",
 		"core/columns",

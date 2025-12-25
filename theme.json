@@ -19,6 +19,11 @@
 					"slug": "contrast"
 				},
 				{
+					"color": "#2196F3",
+					"name": "Primary",
+					"slug": "primary"
+				},
+				{
 					"color": "#F5F5F5",
 					"name": "Accent 1",
 					"slug": "accent-1"
@@ -27,21 +32,6 @@
 					"color": "#424242",
 					"name": "Accent 2",
 					"slug": "accent-2"
-				},
-				{
-					"color": "#EEEEEE",
-					"name": "Accent 3",
-					"slug": "accent-3"
-				},
-				{
-					"color": "#616161",
-					"name": "Accent 4",
-					"slug": "accent-4"
-				},
-				{
-					"color": "#9E9E9E",
-					"name": "Accent 5",
-					"slug": "accent-5"
 				}
 			]
 		},
@@ -311,7 +301,7 @@
 					"width": "0 0 1px 0"
 				},
 				"color": {
-					"text": "var:preset|color|accent-4"
+					"text": "var:preset|color|contrast"
 				},
 				"variations": {
 					"wide": {
