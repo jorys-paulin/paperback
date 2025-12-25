@@ -311,7 +311,7 @@
 			},
 			"core/site-title": {
 				"typography": {
-					"fontSize": "1.25rem",
+					"fontSize": "var:preset|font-size|large",
 					"fontWeight": "700"
 				},
 				"elements": {
