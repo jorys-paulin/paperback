@@ -59,32 +59,32 @@
 				},
 				{
 					"name": "X-Small",
-					"size": ".5rem",
+					"size": ".75rem",
 					"slug": "30"
 				},
 				{
 					"name": "Small",
-					"size": ".75rem",
+					"size": "1rem",
 					"slug": "40"
 				},
 				{
 					"name": "Regular",
-					"size": "1rem",
+					"size": "1.25rem",
 					"slug": "50"
 				},
 				{
 					"name": "Large",
-					"size": "1.5rem",
+					"size": "1.75rem",
 					"slug": "60"
 				},
 				{
 					"name": "X-Large",
-					"size": "1.75rem",
+					"size": "2.5rem",
 					"slug": "70"
 				},
 				{
 					"name": "XX-Large",
-					"size": "2rem",
+					"size": "4rem",
 					"slug": "80"
 				}
 			],
