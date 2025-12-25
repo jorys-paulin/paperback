@@ -59,12 +59,12 @@
 				},
 				{
 					"name": "Regular",
-					"size": "1.25rem",
+					"size": "1.5rem",
 					"slug": "50"
 				},
 				{
 					"name": "Large",
-					"size": "1.75rem",
+					"size": "2rem",
 					"slug": "60"
 				},
 				{
